@@ -1,0 +1,93 @@
+Column,DataType,NonMissingCount,MissingCount,UniqueValues,TopValue
+_index,object,1952,0,1,asset-resource-item_2025-10-17-152242
+_id,int64,1952,0,1952,258
+_score,float64,1952,0,1,1.0
+_source.assetResourceId,int64,1952,0,1952,258
+_source.assetId,int64,1952,0,1951,409
+_source.parentId,int64,1952,0,1952,257
+_source.filename,object,1952,0,1950,12601159_1246089_Cream_Debic_Tiramisu_Dessert_Bottle_1L.pdf
+_source.assetTypeName,object,1943,9,4,Final Artwork LR PDF
+_source.productEan,float64,811,1141,544,8719281097747.0
+_source.projectNumber,float64,1744,208,640,1186701.0
+_source.pimProjectNumber,float64,0,1952,0,
+_source.productName,object,816,1136,553,Keune Style Inner Box outside
+_source.projectName,object,1744,208,640,284_19568_Zaanse_Trots_Goudse
+_source.productSku,object,714,1238,484,8719281097747
+_source.assetResourceCreationDate,object,1952,0,58,20-11-2023
+_source.assetResourceFileCreateDate,object,1952,0,1,01-01-1970
+_source.assetResourceFileModifyDate,object,1952,0,1,01-01-1970
+_source.assetCreationDate,object,1952,0,58,20-11-2023
+_source.customer,object,1788,164,13,Albert Heijn
+_source.creation_date,int64,1952,0,1895,1692630402
+_source.file_create_date,int64,1952,0,1,0
+_source.file_modify_date,int64,1952,0,1,0
+_source.organization_id,object,1788,164,13,43
+_source.asset_resource_name,object,1952,0,1950,12601159_1246089_Cream_Debic_Tiramisu_Dessert_Bottle_1L.pdf
+_source.asset_type_name,object,1943,9,4,Final Artwork LR PDF
+_source.file_name,object,1952,0,1950,12601159_1246089_Cream_Debic_Tiramisu_Dessert_Bottle_1L.pdf
+_source.file_name_text,object,1952,0,1950,12601159_1246089_Cream_Debic_Tiramisu_Dessert_Bottle_1L.pdf
+_source.upload_name,object,2,1950,2,1185540_284_16721_8710400008873_Middelgrote_Uien_NS_1kg_FL.pdf
+_source.pdf_text,float64,0,1952,0,
+_source.file_size,int64,1952,0,1,0
+_source.asset_creation_date,int64,1952,0,1894,1692630402
+_source.epsonmaterial,object,1402,550,6,PAPER
+_source.gmgflow,object,1341,611,47,Ñ
+_source.shape,object,369,1583,35,3DTRY
+_source.shapes,float64,0,1952,0,
+_source.software,object,1155,797,2,ADOBE CC 2022
+_source.substrate_material,float64,0,1952,0,
+_source.keylinenumber,float64,1,1951,1,10000018454.0
+_source.angle,object,369,1583,5,2D1
+_source.packshottype,object,366,1586,2,STD
+_source.printer_code,float64,0,1952,0,
+_source.printingmaterial,float64,0,1952,0,
+_source.printing_process,float64,0,1952,0,
+_source.printingprocess,float64,0,1952,0,
+_source.printing_workflow,float64,0,1952,0,
+_source.materials,float64,0,1952,0,
+_source.packtype,float64,0,1952,0,
+_source.shapecode,float64,0,1952,0,
+_source.shapecode_text,float64,0,1952,0,
+_source.packaging,object,3,1949,2,Bottle
+_source.packrange,float64,0,1952,0,
+_source.packshotquality,float64,0,1952,0,
+_source.producttype,object,1,1951,1,Food
+_source.volumes,float64,0,1952,0,
+_source.product_category_brand,object,2,1950,2,Heineken
+_source.product_category_campaign,object,1,1951,1,F1 2022
+_source.product_category_market,float64,0,1952,0,
+_source.product_category_segment,float64,0,1952,0,
+_source.product_category_platform,float64,0,1952,0,
+_source.product_category_brand_text,object,2,1950,2,Heineken
+_source.product_category_campaign_text,object,1,1951,1,F1 2022
+_source.product_category_market_text,float64,0,1952,0,
+_source.product_category_segment_text,float64,0,1952,0,
+_source.product_category_platform_text,float64,0,1952,0,
+_source.grammage,float64,1,1951,1,500.0
+_source.net_content_statement,float64,0,1952,0,
+_source.net_contents_ml,float64,0,1952,0,
+_source.net_contents_g,float64,0,1952,0,
+_source.net_contents_pcs,float64,0,1952,0,
+_source.net_unit_contents_ml,float64,0,1952,0,
+_source.net_unit_contents_g,float64,0,1952,0,
+_source.product_ean,float64,811,1141,544,8719281097747.0
+_source.product_name,object,816,1136,553,Keune Style Inner Box outside
+_source.product_sku,object,714,1238,484,8719281097747
+_source.product_ean_text,float64,811,1141,544,8719281097747.0
+_source.product_name_text,object,816,1136,553,Keune Style Inner Box outside
+_source.product_sku_text,object,714,1238,484,8719281097747
+_source.froq_project_owner,float64,0,1952,0,
+_source.froq_project_owner_text,float64,0,1952,0,
+_source.project_owner_text,object,1744,208,1,f
+_source.project_owner,object,1744,208,1,f
+_source.project_froq_name,object,1744,208,640,284_19568_Zaanse_Trots_Goudse
+_source.project_froq_name_text,object,1744,208,640,284_19568_Zaanse_Trots_Goudse
+_source.project_froq_project_number,float64,1744,208,640,1186701.0
+_source.project_froq_project_number_text,float64,1744,208,640,1186701.0
+_source.project_name,object,1744,208,640,284_19568_Zaanse_Trots_Goudse
+_source.project_name_text,object,1744,208,640,284_19568_Zaanse_Trots_Goudse
+_source.project_pim_project_number,float64,0,1952,0,
+_source.project_pim_project_number_text,float64,0,1952,0,
+_source.tags,float64,0,1952,0,
+_source.height,float64,406,1546,11,3600.0
+_source.width,float64,406,1546,11,3600.0
