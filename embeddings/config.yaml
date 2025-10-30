@@ -1,0 +1,43 @@
+# embeddings/config.yaml
+
+model:
+  name: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  batch_size: 128
+  normalize_embeddings: true
+
+chunking:
+  max_tokens: 512
+  overlap_tokens: 64
+
+paths:
+  index_dir: ./embeddings/store
+  faiss_index: index.faiss
+  sqlite_db: meta.sqlite
+
+ingest:
+  min_text_len: 10
+  deduplicate: true
+  dry_run: false
+
+faiss:
+  # Use FAISS factory to choose index type. Examples:
+  # - "Flat" (exact, slow, highest recall)
+  # - "IVF4096,Flat" (inverted file, train required, fast with good recall)
+  # - "HNSW32" (graph-based ANN, no training, fast)
+  factory: "Flat"
+  # Metric: "ip" (inner product) or "l2" (euclidean). Keep "ip" when embeddings are normalized.
+  metric: "ip"
+  # IVF search params
+  nprobe: 16
+  # HNSW search params
+  hnsw_ef_search: 64
+  hnsw_ef_construction: 200
+
+csv:
+  path: ./embeddings/data.csv
+  text_columns:   # auto select if empty
+  key_columns: ["index", "_id","_source.assetResourceId", "_source.file_name_text", "_source.filename"]
+  min_text_len: 10
+
+watch:
+  debounce_ms: 1500

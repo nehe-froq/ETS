@@ -1,0 +1,14 @@
+numpy>=1.24,<3
+scipy>=1.10,<2
+regex>=2024.5.15
+PyYAML>=6.0.1,<7
+rich>=13.7,<14
+beautifulsoup4>=4.12,<5
+sentence-transformers>=2.7.0,<3
+transformers>=4.43,<5
+huggingface-hub>=0.23,<1
+faiss-cpu>=1.8.0.post1,<2
+xxhash>=3.4,<4
+pandas>=2,<3
+watchdog>=4,<5
+
